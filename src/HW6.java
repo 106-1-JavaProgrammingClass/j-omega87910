@@ -5,6 +5,6 @@ public class HW6 {
         Scanner scn = new Scanner(System.in);
         String string = scn.next();
         char word = scn.next().charAt(0);
-        System.out.println(string.replace(word+"","\n"));
+        System.out.println(string.replace(word,'\n'));
     }
 }
